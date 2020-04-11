@@ -1,0 +1,22 @@
+// Default settings
+db {
+  url    = 'jdbc:oracle:thin:@//localhost:1521/xe'
+  username = 'groovy'
+  passwd = 'secret'
+}
+
+// Override for specific environments
+
+environments {
+  dev {
+    db {
+      username = "dev_user"
+    }
+  }
+  test {
+    db {
+       username = "test_user"
+       passwd = "test_passwd"
+    }
+  }
+}

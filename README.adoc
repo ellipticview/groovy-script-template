@@ -1,0 +1,18 @@
+This project shows a very simple Groovy script with these features:
+
+. Logging, using Logback
+. Command line parameters
+. Configuration file
+
+This project is set up as an IntelliJ project.
+
+Use this project as a template for your scripts.
+
+== Logging
+The script logic is encapulated in a class, so that we can use a logger annotation.
+
+== Command line parameters
+The command line parameters are specified using picoCli.
+
+== Configuration file
+Configuration is specified in a file which is then read by configslurper.
